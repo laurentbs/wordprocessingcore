@@ -1,0 +1,216 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "WordsProcessingCore/1.0.0": {
+        "dependencies": {
+          "Telerik.Documents.CMapUtils.Trial": "2022.1.217",
+          "Telerik.Documents.Core.Trial": "2022.1.217",
+          "Telerik.Documents.Fixed.Trial": "2022.1.217",
+          "Telerik.Documents.Flow.FormatProviders.Doc.Trial": "2022.1.217",
+          "Telerik.Documents.Flow.Trial": "2022.1.217",
+          "Telerik.Zip.Trial": "2022.1.217"
+        },
+        "runtime": {
+          "WordsProcessingCore.dll": {}
+        }
+      },
+      "System.Buffers/4.5.1": {},
+      "System.Formats.Asn1/6.0.0": {
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Memory": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Formats.Asn1.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Memory/4.5.4": {},
+      "System.Security.Cryptography.Cng/5.0.0": {
+        "dependencies": {
+          "System.Formats.Asn1": "6.0.0"
+        }
+      },
+      "System.Security.Cryptography.Pkcs/6.0.0": {
+        "dependencies": {
+          "System.Formats.Asn1": "6.0.0",
+          "System.Security.Cryptography.Cng": "5.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/System.Security.Cryptography.Pkcs.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.1/System.Security.Cryptography.Pkcs.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Telerik.Documents.CMapUtils.Trial/2022.1.217": {
+        "dependencies": {
+          "Telerik.Documents.Core.Trial": "2022.1.217",
+          "Telerik.Documents.Fixed.Trial": "2022.1.217",
+          "Telerik.Zip.Trial": "2022.1.217"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Telerik.Documents.CMapUtils.dll": {
+            "assemblyVersion": "2022.1.217.20",
+            "fileVersion": "2022.1.217.20"
+          }
+        }
+      },
+      "Telerik.Documents.Core.Trial/2022.1.217": {
+        "dependencies": {
+          "Telerik.Zip.Trial": "2022.1.217"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Telerik.Documents.Core.dll": {
+            "assemblyVersion": "2022.1.217.20",
+            "fileVersion": "2022.1.217.20"
+          }
+        }
+      },
+      "Telerik.Documents.Fixed.Trial/2022.1.217": {
+        "dependencies": {
+          "System.Security.Cryptography.Pkcs": "6.0.0",
+          "Telerik.Documents.Core.Trial": "2022.1.217",
+          "Telerik.Zip.Trial": "2022.1.217"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Telerik.Documents.Fixed.dll": {
+            "assemblyVersion": "2022.1.217.20",
+            "fileVersion": "2022.1.217.20"
+          }
+        }
+      },
+      "Telerik.Documents.Flow.FormatProviders.Doc.Trial/2022.1.217": {
+        "dependencies": {
+          "Telerik.Documents.Core.Trial": "2022.1.217",
+          "Telerik.Documents.Flow.Trial": "2022.1.217",
+          "Telerik.Zip.Trial": "2022.1.217"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Telerik.Documents.Flow.FormatProviders.Doc.dll": {
+            "assemblyVersion": "2022.1.217.20",
+            "fileVersion": "2022.1.217.20"
+          }
+        }
+      },
+      "Telerik.Documents.Flow.Trial/2022.1.217": {
+        "dependencies": {
+          "Telerik.Documents.Core.Trial": "2022.1.217"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Telerik.Documents.Flow.dll": {
+            "assemblyVersion": "2022.1.217.20",
+            "fileVersion": "2022.1.217.20"
+          }
+        }
+      },
+      "Telerik.Zip.Trial/2022.1.217": {
+        "runtime": {
+          "lib/netstandard2.0/Telerik.Zip.dll": {
+            "assemblyVersion": "2022.1.217.20",
+            "fileVersion": "2022.1.217.20"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WordsProcessingCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Buffers/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
+      "path": "system.buffers/4.5.1",
+      "hashPath": "system.buffers.4.5.1.nupkg.sha512"
+    },
+    "System.Formats.Asn1/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T6fD00dQ3NTbPDy31m4eQUwKW84s03z0N2C8HpOklyeaDgaJPa/TexP4/SkORMSOwc7WhKifnA6Ya33AkzmafA==",
+      "path": "system.formats.asn1/6.0.0",
+      "hashPath": "system.formats.asn1.6.0.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "path": "system.memory/4.5.4",
+      "hashPath": "system.memory.4.5.4.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Cng/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jIMXsKn94T9JY7PvPq/tMfqa6GAaHpElRDpmG+SuL+D3+sTw2M8VhnibKnN8Tq+4JqbPJ/f+BwtLeDMEnzAvRg==",
+      "path": "system.security.cryptography.cng/5.0.0",
+      "hashPath": "system.security.cryptography.cng.5.0.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Pkcs/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-elM3x+xSRhzQysiqo85SbidJJ2YbZlnvmh+53TuSZHsD7dNuuEWser+9EFtY+rYupBwkq2avc6ZCO3/6qACgmg==",
+      "path": "system.security.cryptography.pkcs/6.0.0",
+      "hashPath": "system.security.cryptography.pkcs.6.0.0.nupkg.sha512"
+    },
+    "Telerik.Documents.CMapUtils.Trial/2022.1.217": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Gi+MBLMbamMno8BvfRlrLLPQQq25Aeeh/tPDGAgdtTbkoVG5p1b4ki8crvilv2VOO6IdKOM11wL+cWWgzbD6ag==",
+      "path": "telerik.documents.cmaputils.trial/2022.1.217",
+      "hashPath": "telerik.documents.cmaputils.trial.2022.1.217.nupkg.sha512"
+    },
+    "Telerik.Documents.Core.Trial/2022.1.217": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8ChY/P2qghEfFZltA9hyqT17ti9MKr0wfGMXzYQZKEM5+GF7ad08z9zQexVJsLyvte8tzO3iiFVbwWwcj2ZnVQ==",
+      "path": "telerik.documents.core.trial/2022.1.217",
+      "hashPath": "telerik.documents.core.trial.2022.1.217.nupkg.sha512"
+    },
+    "Telerik.Documents.Fixed.Trial/2022.1.217": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6Q/W+Rmn6trMgen/5htoT/w4OAJTEWHS+C8mIlgGN2S70aHAD6Ayfev92WlqcDM2LoqPF+xSc3QtlSBLJU9WjQ==",
+      "path": "telerik.documents.fixed.trial/2022.1.217",
+      "hashPath": "telerik.documents.fixed.trial.2022.1.217.nupkg.sha512"
+    },
+    "Telerik.Documents.Flow.FormatProviders.Doc.Trial/2022.1.217": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qJqobYtAptkl8ymhsgMAPIMN2dPk9w+Sz0bjw08Ek/7mZHmWYPsF6LII+VmvEgYMCF9jIsdRYeEz+bXM8s8wVA==",
+      "path": "telerik.documents.flow.formatproviders.doc.trial/2022.1.217",
+      "hashPath": "telerik.documents.flow.formatproviders.doc.trial.2022.1.217.nupkg.sha512"
+    },
+    "Telerik.Documents.Flow.Trial/2022.1.217": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3rbaOEIU/NexqjhedgM6QFoUa4F6kDB9qoykAWYvoG3GLrea5rolvpwmySEm9xSDBiaUGl/75zhVntFXJxv1sQ==",
+      "path": "telerik.documents.flow.trial/2022.1.217",
+      "hashPath": "telerik.documents.flow.trial.2022.1.217.nupkg.sha512"
+    },
+    "Telerik.Zip.Trial/2022.1.217": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yyarKdmh3LOaCw52VBpoW/XW0X71IxXIxrjWBF6Nr5ygy6kw0Ry4aJqE5zlxj+aJTEmBym76UmSLCCxJJTu4cw==",
+      "path": "telerik.zip.trial/2022.1.217",
+      "hashPath": "telerik.zip.trial.2022.1.217.nupkg.sha512"
+    }
+  }
+}
